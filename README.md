@@ -1,12 +1,8 @@
-JavaScript Click Event Demo
+JavaScript Click Event in Non-Focus Window Demo
 ===========================
 
-对于一个链接(`<a>`)，可以在`href`处调用javascript，同时也可以在`onclick`中拿到click event.
-
-并且`onclick`比`href`要先触发。
+如果代码打开了新window，自己处于non-focus状态，此时手动触发的 `click` 事件也同样有效。
 
 ```
 open index.html
 ```
-
-![demo](./images/demo.jpg)
